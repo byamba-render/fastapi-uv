@@ -1,4 +1,5 @@
 #! /bin/bash
+set -e
 
 # sync the dependecies into the Render cache
 uv sync --locked --no-dev

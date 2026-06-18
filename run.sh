@@ -1,4 +1,4 @@
 #! /bin/bash
+set -e
 
-# this will use dependecies restored from the Render cache
-uv run -- uvicorn --host 0.0.0.0 main:app
+python -m uvicorn --host 0.0.0.0 main:app
